@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fab-button{
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  border-radius: 40px !important;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.strikethrough{
+  text-decoration: line-through;
+}
+.actionButton{
+  padding: .1em !important;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19) !important;
+  padding-left: 0.3em !important;
+  padding-right: 0.3em !important;
+  border-radius: 0px !important;
+}
+.sortButton{
+  padding: .1em !important;
+  padding-left: 0.3em !important;
+  padding-right: 0.3em !important;
+  float: right;
+}
+.flexCss{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filter-header{
+  display: flex;
+  align-items: center;
+}
+.search-input > input{
+  display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.low{
+  background-color: #e0e8b0 !important;
+}
+.nonePrority{
+  background-color: #fff !important;
+}
+.high{
+  background-color: #eaafaf !important;
+}
+.medium{
+  background-color: #afeab9 !important;
+}
+.locked{
+  color: red;
+}
+.unlocked{
+  color: green;
+}
+.title{
+  font-size: 16px;
+  font-weight: 600;
+  color: #24292e;
+}
+.issues-row{
+  line-height: 1.25!important;
+  padding: 8px;
+  flex: auto;
+  border-bottom: 1px solid #d4d1d1;
+  border-left: 1px solid #d4d1d1;
+  border-right: 1px solid #d4d1d1;
+}
+.issues-row-head{
+  background-color: #f6f8fa;
+  line-height: 1.25!important;
+  padding: 8px;
+  flex: auto;
+  border-bottom: 1px solid #d4d1d1;
+  border-left: 1px solid #d4d1d1;
+  border-right: 1px solid #d4d1d1;
+}
+.details{
+  color: #586069;
+  font-size:12px;
+}
+.avatar{
+  height: 31px;
+    border-radius: 20px;
+}
